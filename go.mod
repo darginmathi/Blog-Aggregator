@@ -1,4 +1,4 @@
-module github.com/darginmathi/Blog-Aggregator
+module github.com/darginmathi/gator
 
 go 1.24.0
 
