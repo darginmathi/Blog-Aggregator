@@ -19,8 +19,8 @@ Gator is a CLI tool for following and fetching RSS feeds
    - `go install github.com/pressly/goose/v3/cmd/goose@latest`
 
 ## Installation
-  - `git clone https://github.com/darginmathi/Blog-Aggregator`
-  - `cd Blog-Aggregator`
+  - `git clone https://github.com/darginmathi/gator`
+  - `cd gator`
   - `go install .`
 
 ## Setup
@@ -31,7 +31,7 @@ Gator is a CLI tool for following and fetching RSS feeds
     - `\c gator`
     - `ALTER USER postgres PASSWORD 'postgres';`
 
-  -  Migrate the tables go to src/schema use this command:
+  -  Migrate the tables go to src/schema use this command
     - `goose postgres postgres://postgres:postgres@localhost:5432/gator up`
 
   - Create and set config file
